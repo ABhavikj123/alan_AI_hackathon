@@ -1,0 +1,8 @@
+{
+  "packages": { "apt": [] },
+  "env": {
+    "NEXT_TELEMETRY_DISABLED": "1"
+  },
+  "secrets": {},
+  "install": [{ "name": "setup", "run": "bash .alan/setup.sh" }]
+}
